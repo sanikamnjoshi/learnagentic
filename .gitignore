@@ -1,0 +1,80 @@
+# Crewai Local Persistent Storage
+# Sqlite3 files anywhere arbitrarily deep inside the repo
+**/*.sqlite3
+*.sqlite3-journal
+*.bin
+
+# Analysis Output Folder
+**/analysis_output/
+output.txt
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+*.pkg
+
+# macOS Thumbnails
+._*
+
+# macOS file system metadata
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+.DS_Store?
+._*
+
+# Python-specific files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (in case you're not using Poetry's built-in venv handling)
+env/
+venv/
+.venv/
+.python-version
+
+# Poetry files (already versioned by pyproject.toml)
+poetry.lock
+
+# Byte-compiled / optimized / DLL files
+*.pyo
+*.pyd
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+*.cover
+*.py,cover
+.cache
+nosetests.xml
+coverage.xml
+*.log
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# PyCharm project files
+.idea/
+
+# VS Code project files
+.vscode/
+
+# Logs
+*.log
+*.out
+
+# OS-specific swap files
+*.swp
+
+# Environment variables
+.env
+
+# Output of path_graph_strawman_creator
+cypher_queries.md
+graph_overview.md
+knowledgebase_input
+
