@@ -80,3 +80,6 @@ knowledgebase_input
 
 # reference notebooks used by the instructor
 reference-notebooks/
+
+# folder for test code in which I will brazenly paste keys in plaintext
+hidden-code/
