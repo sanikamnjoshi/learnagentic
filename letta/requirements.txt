@@ -1,0 +1,9 @@
+0;276;0c11;rgb:ffff/ffff/ffff11;rgb:ffff/ffff/ffff# requirements file
+# note which revision of python, for example 3.9.6
+# in this file, insert all the pip install needs, include revision
+
+#for example:
+python_dotenv==1.0.1
+openai==1.45.1
+letta==01.4
+crewai-tools==0.12.0
